@@ -1,9 +1,9 @@
-# PHP 7.4 + MySQL + phpMyAdmin Docker Environment
+# PHP 8 + MySQL + phpMyAdmin Docker Environment
 
 This repo will spin up a very basic set of containers providing the following:
 
 - Apache Web Server
-- PHP 7.4 w/ mysqli & zip extensions
+- PHP 8 w/ mysqli & zip extensions
 - MySQL 8
 - phpMyAdmin 5.0.4
 
