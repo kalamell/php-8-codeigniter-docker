@@ -7,6 +7,11 @@ This repo will spin up a very basic set of containers providing the following:
 - MySQL 8
 - phpMyAdmin 5.0.4
 
+
+## Notice
+
+This currently does not work - it always returns a 404, currently working on fixing what is broken with routing. Happy 
+to accept PRs.
 ## Getting Started
 
 Run `./start.sh` to spin up all of the containers. Your local web server is available at http://localhost:8910, 
