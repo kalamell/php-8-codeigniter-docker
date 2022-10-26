@@ -20,9 +20,12 @@ services:
         restart: always
         environment:
             MYSQL_ROOT_PASSWORD: password
+            UPLOAD_LIMIT: 300M
         networks:
             static-network:
                 ipv4_address: 172.20.0.4
+        volumes:
+            - "./db:/var/lib/mysql"
 
     phpmyadmin:
         build: ./docker/local/phpmyadmin
